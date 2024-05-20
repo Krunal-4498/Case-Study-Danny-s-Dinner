@@ -38,6 +38,7 @@ You can inspect the entity relationship diagram and example data below.
 12. Rank the previous output from Q11 based on the order date for each customer, display null if customer was not member when dish ordered
 
 ## Code
+For detail solution code please refer 
 CREATE SCHEMA dannys_diner;
 
 CREATE TABLE sales (
