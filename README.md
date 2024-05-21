@@ -17,7 +17,7 @@ Danny has shared with you 3 key datasets for this case study:
 - menu
 - members
 
-You can inspect the entity relationship diagram and example data below.
+You can inspect the entity relationship diagram and example data below and refer 
 
 ![Entity Dig](https://github.com/Krunal-4498/Case-Study-Danny-s-Dinner__using_MySQL/assets/134350505/050b8009-7ee4-41f7-8ca9-111342bcfb09)
 
@@ -38,49 +38,5 @@ You can inspect the entity relationship diagram and example data below.
 12. Rank the previous output from Q11 based on the order date for each customer, display null if customer was not member when dish ordered
 
 ## Code
-For detail solution code please refer 
-CREATE SCHEMA dannys_diner;
+-- For detail solution code please refer 
 
-CREATE TABLE sales (
-  customer_id VARCHAR(1),
-  order_date DATE,
-  product_id INTEGER
-);
-
-INSERT INTO sales (customer_id, order_date, product_id) VALUES
-  ('A', '2021-01-01', 1),
-  ('A', '2021-01-01', 2),
-  ('A', '2021-01-07', 2),
-  ('A', '2021-01-10', 3),
-  ('A', '2021-01-11', 3),
-  ('A', '2021-01-11', 3),
-  ('B', '2021-01-01', 2),
-  ('B', '2021-01-02', 2),
-  ('B', '2021-01-04', 1),
-  ('B', '2021-01-11', 1),
-  ('B', '2021-01-16', 3),
-  ('B', '2021-02-01', 3),
-  ('C', '2021-01-01', 3),
-  ('C', '2021-01-01', 3),
-  ('C', '2021-01-07', 3);
-
-CREATE TABLE menu (
-  product_id INTEGER,
-  product_name VARCHAR(5),
-  price INTEGER
-);
-
-INSERT INTO menu (product_id, product_name, price) VALUES
-  (1, 'sushi', 10),
-  (2, 'curry', 15),
-  (3, 'ramen', 12);
-
-CREATE TABLE members (
-  customer_id VARCHAR(1),
-  join_date DATE
-);
-
-INSERT INTO members (customer_id, join_date) VALUES
-  ('A', '2021-01-07'),
-  ('B', '2021-01-09');
-  
