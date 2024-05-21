@@ -38,7 +38,7 @@ You can inspect the entity relationship diagram below and refer [dannys_diner_Ca
 12. Rank the previous output from Q11 based on the order date for each customer, display null if customer was not member when dish ordered
 
 ## Code
-To create database and insert values into it,
+To create database and insert values into it and for detail solution codes refer https://github.com/Krunal-4498/Case-Study-Danny-s-Dinner__using_MySQL/tree/main.
 ```sql
 CREATE SCHEMA dannys_diner;
 
