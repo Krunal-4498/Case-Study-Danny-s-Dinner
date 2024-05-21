@@ -17,7 +17,7 @@ Danny has shared with you 3 key datasets for this case study:
 - menu
 - members
 
-You can inspect the entity relationship diagram and example data below
+You can inspect the entity relationship diagram below and refer [dannys_diner_Case_Study_dataset.sql](https://github.com/Krunal-4498/Case-Study-Danny-s-Dinner__using_MySQL/tree/main)  from detailed dataset.
 
 ![Entity Dig](https://github.com/Krunal-4498/Case-Study-Danny-s-Dinner__using_MySQL/assets/134350505/050b8009-7ee4-41f7-8ca9-111342bcfb09)
 
